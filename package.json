@@ -4,7 +4,7 @@
   "description": "CoLearnr default theme",
   "main": "index.js",
   "scripts": {
-    "prepublish": "mkdir dist && gulp css"
+    "prepublish": "mkdir -p dist && gulp css"
   },
   "keywords": [
     "CoLearnr",
