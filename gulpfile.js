@@ -33,6 +33,10 @@ gulp.task('clean', function () {
   return gulp.src(['dist/stylesheets', 'dist/fonts', 'dist/*.html'], {read: false})
     .pipe(rimraf())
 })
+gulp.task('cleanup', function () {
+  return gulp.src(['dist/stylesheets/includes'], {read: false})
+    .pipe(rimraf())
+})
 
 // Rev all files
 gulp.task('rev', function () {
