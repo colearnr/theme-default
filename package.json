@@ -1,6 +1,6 @@
 {
   "name": "colearnr-theme-default",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CoLearnr default theme",
   "main": "index.js",
   "scripts": {
