@@ -185,7 +185,6 @@ hr.clean {
 
 header {
   width: 100%;
-  border-bottom: 1px solid #fafafa;
   background: #f6f6f6;
   /* Old browsers */
   /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -596,8 +595,8 @@ body .modal {
 #structure {
   position: relative;
   padding: 5px 0px;
-  margin-top: 0px;
-  margin-bottom: 5px;
+  margin-top: -15px;
+  margin-bottom: 0px;
   text-align: left; }
 
 div.istoolbar_container h1, h2, h3, h4, h5, h6 {
