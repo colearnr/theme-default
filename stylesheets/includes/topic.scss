@@ -81,6 +81,7 @@ header {
 }
 
 #wall {
+  margin-bottom: 25px;
   .title {
     padding: 10px 0 10px 0;
     margin-bottom: 10px;
@@ -485,7 +486,7 @@ body .modal {
   position: relative;
   padding: 5px 0px;
   margin-top: -15px;
-  margin-bottom: 0px;
+  margin-bottom: 2px;
   text-align: left;
 }
 
@@ -1507,7 +1508,10 @@ span {
   background-color: rgba(227, 227, 227, 0.9);
   margin-bottom: 2px;
   .topic_lbits {
-      margin: 0px 15px 0px 15px;
+    margin: 0px 15px 0px 15px;
+  }
+  .topic_no_childs {
+
   }
   &:hover {
     background-color: rgba(227, 227, 227, 0.95);
