@@ -287,7 +287,7 @@ header {
     -moz-border-radius: 4px;
     border-radius: 4px; }
     #wall .item.selectedLbit {
-      border: 5px solid #486D98; }
+      border: 2px solid #486D98; }
 
 #portfolio .item {
   border: 0px solid #fafafa;
@@ -329,6 +329,18 @@ body .modal {
     margin-bottom: 2px;
     position: relative;
     text-align: right; }
+  #wall .item div.lbit-decorate .viewedDecorate,
+  #wall .item div.lbit-decorate .discussedDecorate {
+    display: none; }
+  #wall .item.viewedLbit div.lbit-decorate, #wall .item.discussedLbit div.lbit-decorate, #wall .item.likedLbit div.lbit-decorate {
+    position: absolute;
+    top: -15px;
+    left: -10px;
+    font-size: 24px;
+    color: #486D98;
+    display: inline; }
+  #wall .item.viewedLbit .viewedDecorate, #wall .item.discussedLbit .discussedDecorate {
+    display: inline !important; }
 
 .menu_btn, #wall .item .top_meta_btn {
   display: inline-block;
