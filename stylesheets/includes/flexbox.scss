@@ -8,7 +8,6 @@
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  height: 100%;
 }
 
 .Site-header,
@@ -19,19 +18,11 @@
   flex: none;
 }
 
-.Site-footer {
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  z-index: -1;
-  margin-top: 20px;
-}
 .Site-content {
   -webkit-box-flex: 1;
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
-  width: 100%;
 }
 
 .Aligner {
