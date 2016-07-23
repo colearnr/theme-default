@@ -4597,7 +4597,11 @@ div.control-group {
 
 .spacerHeaderDescription {
   height: 400px;
-  text-align: center; }
+  text-align: left; }
+  .spacerHeaderDescription .coverArt h1 {
+    padding: 20px 20px 20px 20px; }
+  .spacerHeaderDescription .coverArt .description {
+    padding: 0 20px 10px 20px; }
 
 .spacerHeader {
   height: 250px;
