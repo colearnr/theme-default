@@ -1230,7 +1230,7 @@ span {
 
 .grid-title {
   padding: 5px 10px 0px 10px;
-  height: 35px;
+  height: 30px;
   overflow: hidden;
   .pull-left span {
     color: #5f5f5f;
@@ -1329,16 +1329,19 @@ span {
 
 .share-block {
   margin-top: 5px;
-  font-size: 2em;
+  font-size: 1.5em;
   a {
     text-decoration: none;
+  }
+  .friendlyTime {
+    margin-top: 5px;
   }
 }
 
 .detailed_info {
   display: none;
   height: 100%;
-  padding: 10px;
+  padding: 5px;
   .lbit-by {
     width: 40px;
     height: 40px;

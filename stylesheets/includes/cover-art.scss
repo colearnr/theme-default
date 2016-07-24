@@ -43,6 +43,13 @@
     letter-spacing: 1px;
     padding: 20px;
   }
+  .readabilityStats {
+    font-size: 16px;
+    color: #fff !important;
+    text-shadow: 2px 2px rgba(0,0,0,.5) !important;
+    text-align: right;
+    margin: 10px 20px 10px 0;
+  }
 }
 
 .spacer {
@@ -55,9 +62,9 @@
 }
 
 .spacerHeaderDescription {
-  height: 400px;
   text-align: left;
   .coverArt {
+    height: inherit;
     h1 {
       padding: 20px 20px 20px 20px;
     }
