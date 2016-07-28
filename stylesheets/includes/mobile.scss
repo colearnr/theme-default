@@ -231,8 +231,8 @@
  *====================================================================== */
 @media (min-width: 1200px) {
   #wall .item {
-    width: 280px;
-    max-width: 280px;
+    width: 200px;
+    max-width: 200px;
   }
   .sidebar {
     margin-left: 0px;
@@ -248,8 +248,8 @@
   #wall .item {
     margin-bottom: 10px;
     margin-top: 20px;
-    width: 230px;
-    max-width: 230px;
+    width: 200px;
+    max-width: 200px;
     margin-right: 10px;
   }
   .sidebar {
@@ -262,8 +262,8 @@
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   #wall .item {
     margin-bottom: 10px;
-    width: 230px;
-    max-width: 230px;
+    width: 200px;
+    max-width: 200px;
   }
   .sidebar {
     width: 230px;
@@ -282,7 +282,11 @@
     margin-right: 20px;
   }
   #page-title.titleWArt {
-    margin-bottom: -30px;
+    margin-bottom: 0px;
+    height: 300px;
+  }
+  .item .quotes {
+    height: 100%;
   }
   .separate {
     position: relative;
@@ -324,7 +328,7 @@
       max-width: 310px;
     }
     .lbit-order-display {
-      top: -60px;
+      top: -30px;
     }
   }
   #wrapper {
