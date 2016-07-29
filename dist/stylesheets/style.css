@@ -320,7 +320,7 @@ body .modal {
 
 #wall .item {
   margin-bottom: 10px;
-  height: 280px; }
+  height: 260px; }
   #wall .item .meta {
     margin-top: 10px; }
   #wall .item .top_meta {
@@ -405,8 +405,8 @@ body .modal {
   .item .picture a.image {
     z-index: -1;
     text-align: center;
-    height: 150px;
-    max-height: 150px;
+    height: 130px;
+    max-height: 130px;
     display: block;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -418,8 +418,8 @@ body .modal {
   .item .picture img {
     display: inline-block;
     text-align: center;
-    height: 150px;
-    max-height: 150px;
+    height: 130px;
+    max-height: 130px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
@@ -855,7 +855,7 @@ div.istoolbar_container h1, h2, h3, h4, h5, h6 {
 .nav-tabs {
   font-size: 16px; }
   .nav-tabs li {
-    border-left: 1px solid #fafafa;
+    margin-bottom: -3px;
     background: #f6f6f6;
     /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -874,6 +874,10 @@ div.istoolbar_container h1, h2, h3, h4, h5, h6 {
     /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$black_haze', endColorstr='$gray_nurse',GradientType=0 );
     /* IE6-8 */ }
+  .nav-tabs > li > a {
+    border: none;
+    margin-right: 0px;
+    border-radius: 0px; }
   .nav-tabs > li.active > a {
     color: #FFF;
     background: #486D98;
@@ -1277,13 +1281,19 @@ span.pro, span.new {
     font-size: 18px;
     text-decoration: none; }
 
-.share-block {
+.share-block-lbit {
   margin-top: 5px;
   font-size: 1.5em; }
+  .share-block-lbit a {
+    text-decoration: none; }
+  .share-block-lbit .friendlyTime {
+    margin-top: 5px; }
+
+.share-block {
+  margin-top: 5px;
+  font-size: 1.8em; }
   .share-block a {
     text-decoration: none; }
-  .share-block .friendlyTime {
-    margin-top: 5px; }
 
 .detailed_info {
   display: none;
