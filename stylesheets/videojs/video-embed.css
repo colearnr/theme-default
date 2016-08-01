@@ -697,6 +697,7 @@ easily in the skin designer. http://designer.videojs.com/
   /* Same width top as ul bottom */
 
   border-top-color: rgba(7, 40, 50, 0.5);
+  z-index: 120;
   /* Same as ul background */
 
 }
